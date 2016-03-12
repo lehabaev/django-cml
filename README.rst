@@ -36,7 +36,7 @@ Include the cml URLconf in your project urls.py like this::
 
 Run `python manage.py migrate` to create the cml models.
 
-Create a cml-pipelines.py file with 'python manage.py cmlpipelines' and add it to settings file like this::
+Create a cml_pipelines.py file with 'python manage.py cmlpipelines' and add it to settings file like this::
 
     CML_PROJECT_PIPELINES = 'project.cml_pipelines'
 
